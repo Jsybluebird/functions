@@ -1,0 +1,9 @@
+def calculate_sum(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+
+my_list = [10, 5, 20, 8, 15]
+sum_of_numbers = calculate_sum(my_list)
+print("The sum of numbers is:", sum_of_numbers)
